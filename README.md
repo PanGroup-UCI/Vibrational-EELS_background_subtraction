@@ -1,4 +1,4 @@
-Package for background subtraction on ultrahigh energy resolution vibrational EEL spectra in Matlab
+Package for background subtraction on ultrahigh energy resolution vibrational EEL spectra in Matlab.
 
 The format of input data should be .dm3 or .dm4 for the spectra imaging datasets. The main code is 'VibEELS_BKG_DM_vxx.m'.
 
