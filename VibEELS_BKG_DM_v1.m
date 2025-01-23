@@ -3,20 +3,21 @@ clear variables;clc;clf;close all;
 
 path_root = 'C:\Users\yanxi\Documents\MATLAB\Github_Repositories\Vibrational_EELS_background_subtraction';
 path = [path_root,'\'];
-filename_EELS = 'Example_BTO_deleted.dm4';%%remember to change it everytime
+filename_EELS = 'Example_STO.dm3';%%remember to change it everytime
 
 dispersion = 0.5;%%meV/channel
 save_number = 0;
 
 % for binning the data and different fitting models
-bin = [2,2]; % [1,1] for no binning (Y,X)
+bin = [4,4]; % [1,1] for no binning (Y,X)
 
 % fitting paramters
 fit_seg_num = 3; %energy_range_segment_number: 2, 3, or 4
-fit_range_energy = [8.5, 9, 72, 78, 105, 120, 230, 240]; % BTO or STO
-fit_model = 'power0'; %options: 'power','exppoly','power0' w/o offset
+fit_range_energy = [7, 9, 80, 90, 110, 130, 220, 260]; % STO
+%fit_range_energy = [8.5, 9, 72, 78, 105, 120, 230, 240]; % BTO
+fit_model = 'power0'; %options: 'power','exppoly','power0'
 coeff_start = [3e-2 1.8 -2e-3];%% based on 0.1eV, meV and hundredth
-energy_factor = 30; %meV
+energy_factor = 40; %meV
 Upper_bound = [0.1, 5, 0.1];
 Lower_bound = -Upper_bound;
 
