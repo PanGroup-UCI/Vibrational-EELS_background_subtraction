@@ -6,6 +6,6 @@ The code can align the vibrational spectra based on the ZLP center, and do the b
 
 You can choose four types of background fitting functions: (1) 'power0': power law, y = a0 * x.^(-a1) + a2; (2) 'power': power law zero, y = a0 * x.^(-a1); (3) 'Voigt': Voigt, y = g * exp(a4 * x.^4 - a2 * x.^2) + h / (w2 + x.^2) + c0; (4) 'exppoly': exponential polynomial, y = a0 *exp(- a1 * x + a2 * x.^2 - a3 * x .^3) + a5.
 
-The published paper can be found (and cited) at: Yan, X., Zeiger, P.M., Huang, Y. et al. Atomic-scale imaging of frequency-dependent phonon anisotropy. Nature (2025). https://doi.org/10.1038/s41586-025-09511-z, Available at [http://](https://doi.org/10.1038/s41586-025-09511-z)
+The published paper can be found (and cited) at: Yan, X., Zeiger, P.M., Huang, Y. et al. Atomic-scale imaging of frequency-dependent phonon anisotropy. Nature (2025). Available at https://doi.org/10.1038/s41586-025-09511-z.
 
 The experimental work was primarily supported by the Department of Energy, Office of Basic Energy Sciences, Division of Materials Sciences and Engineering (Grant No. DE-SC0014430). Further support was provided by the National Science Foundation through a Materials Research Science and Engineering Center programme (Grant Award No. DMR-2011967). We acknowledge the use of facilities and instrumentation at the University of California (UC), Irvine’s Materials Research Institute (IMRI).
